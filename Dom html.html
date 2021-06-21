@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <script src="https://kit.fontawesome.com/6514fba8b1.js" crossorigin="anonymous"></script>
+      <link rel="stylesheet" href="DOM CSS.css">
+
+      
+      <title>My Jewelry store</title>
+  </head>
+  <body>
+   
+      <div class="MY-Shopping-Cart">
+        
+          <!-- Title -->
+          <div class="title-1">
+             My Fancy Jewelry
+          </div>      
+          <div class="My-Carts-Jewerly">
+          <!-- Product #1 -->
+        <div class="My-collection">
+          <div class="My-cart-collection">
+            <img class="Jewerly" src="Golden-Ring-.jpg" alt="" /> </div> 
+             <div class="title-jewerly" >The Fortuna Ring </div>
+
+             <div class="SUM">
+
+            <span class="My-cart-price">$150</span>
+            </div>
+
+
+            <div class="buttons-types">
+              <button type="submit" value="+" onclick="minusoperation-1" class="minus">-</button>
+              <input type="number" class="cart-quantity" id="number-1" name="1" min="0" max="200" onchange="inputNumber(this)" data-prevvalue=0 value="0" disabled/>
+              <button type="submit" value="+" onclick="plusoperation(1)" class="plus">+</button>
+            </div>
+              
+    
+            <div class="buttons-cart">
+         
+              <button id="Button-1" >
+                <i class="fas fa-heart" onclick="changeColor(this)"></i>
+
+              </button> 
+              <button onclick="Delete(this)"> <img src="delete-icn.png" alt=""></button>
+            </div>
+        </div>
+
+        <!-- Product #2 -->
+        <div class="My-collection">   
+          <div class="My-cart-collection">
+            <img class="Jewerly" src="Golden-Nechlace.jpg" alt=""/></div>
+
+               
+            <div class="title-jewerly" >Bridal Gold  Necklace </div>
+            
+            <div class="SUM">
+          <span class="My-cart-price">$175</span>
+          </div>
+
+          <div class="buttons-types">
+            <button type="submit" value="+" onclick="minusoperation-1" class="minus">-</button>
+            <input type="number" class="cart-quantity-" id="number-1" name="1" min="0" max="200" onchange="inputNumber(this)" data-prevvalue=0 value="0" disabled/>
+            <button type="submit" value="+" onclick="plusoperation(1)" class="plus">+</button>
+          </div>
+            
+      
+     
+      <div class="buttons-cart">
+      
+        <button id="Button-2" >
+          <i class="fas fa-heart" onclick="changeColor(this)"></i>
+        </button>
+        <button onclick="Delete(this)"> <img src="delete-icn.png" alt=""></button>
+      </div>
+  </div>
+
+  
+      <!-- Product #3 -->
+      <div class="My-collection"> 
+      <div class="My-cart-collection">
+      <img class="Jewerly" src="Golden-Braclet.jpg" alt=""/></div>
+      <div class="title-jewerly" > bracelet 
+        luxurious <br>
+        classic .
+         
+    </div> 
+
+
+    <div class="SUM">
+
+      <span class="My-cart-price ">$100</span>
+     </div>
+
+
+      <div class="buttons-types">
+    
+        <button type="submit" value="+" onclick="minusoperation-1" class="minus">-</button>
+        <input type="number" class="cart-quantity" id="number-1" name="1" min="0" max="200" onchange="inputNumber(this)" data-prevvalue=0 value="0" disabled/>
+        <button type="submit" value="+" onclick="plusoperation(1)" class="plus">+</button>
+      </div>
+        
+   
+    <div class="buttons-cart">
+    
+      <button id="Button-3" >
+        <i class="fas fa-heart" onclick="changeColor(this)"></i>
+
+      </button>
+      <button onclick="Delete(this)"> <img src="delete-icn.png" alt=""></button>
+    </div>
+  </div>
+  </div>
+  <div class="My-total-cart>
+
+    <strong class="cart-total-sum">Total</strong>
+
+    
+    <span id="total-price">$0</span>
+    
+  </div>
+
+  <script src="DOM-JS.js"></script>
+
+</body>
+</html>
